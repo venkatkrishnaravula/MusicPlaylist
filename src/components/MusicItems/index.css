@@ -1,0 +1,54 @@
+.list-items {
+  list-style-type: none;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.row-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.music-image-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.track-image {
+  height: 100px;
+  width: 200px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.head {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-bottom: 6px;
+  margin-top: 0px;
+}
+.para-list {
+  color: #3b82f6;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.time-delete-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.delete {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.delete-btn {
+  background: none;
+  border: none;
+}
